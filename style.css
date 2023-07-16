@@ -3,9 +3,45 @@
     padding: 0;
 }
 
+.center {
+    max-width: 1146px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    font-weight: 400;
+    background-color: #FFFFFF;
+}
+
 .header {
     padding-top: 51px;
     padding-bottom: 51px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-direction: row;
+}
+
+
+
+.header_link0 {
+    color: #F25822;
+    font-family: 'Gilroy-SemiBold', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.header_link {
+    color: #000;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+    text-decoration: none;
 }
 
 .top {
@@ -17,10 +53,83 @@
     margin-bottom: 162.45px;
 }
 
+.top_content_center {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 0 auto 163px auto;
+}
+
+.top_info {
+    max-width: 522px;
+    width: 100%;
+}
+
 .title {
+    font-family: 'Gilroy-Bold', sans-serif;
     margin-bottom: 17px;
+    font-size: 60px;
+    color: #000;
+    font-style: normal;
+    line-height: normal;
+}
+
+.top_info_img {
+    width: 545px;
+    height: 375px;
+}
+
+.top_info_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.text {
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 20px;
+    color: #888;
+    font-style: normal;
+    line-height: normal;
 }
 
 .top_buttons_link {
+    font-family: 'Gilroy-Bold', sans-serif;
     margin-top: 52px;
+    font-size: 15px;
+    border: none;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+
+.button {
+    display: block;
+    padding: 15px 35px;
+    color: #FFF;
+    background-color: #F25822;
+    border-radius: 50px;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+}
+
+.button:hover {
+    color: #F25822;
+    background-color: #FFF
+}
+
+.top_button_link {
+    display: block;
+    padding: 15px 35px;
+    color: #AAA;
+    font-size: 15px;
+    font-style: normal;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.top_logo_center {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
 }
